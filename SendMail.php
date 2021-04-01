@@ -16,7 +16,7 @@ if(empty($fullnames) || empty($email) || empty($subject) || empty($message)){
 
 else{
     //my email..
-    $to = "geniuskingsley1@gmail.com";
+    $to = "info@geniustech.me";
 
     if(mail($to, $subject, $message, $email)){
             header('location:index.php?success');
