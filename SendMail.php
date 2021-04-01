@@ -16,9 +16,9 @@ if(empty($fullnames) || empty($email) || empty($subject) || empty($message)){
 
 else{
     //my email..
-    $to = "info@geniustech.me";
+    $myMail = "info@geniustech.me";
 
-    if(mail($to, $subject, $message, $email)){
+    if(mail($myMail, $subject, $message, $email)){
             header('location:index.php?success');
     }
 }
